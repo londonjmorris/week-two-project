@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans' , sans-serif;
+}
+
+nav{
+  height: 115px;
+  background-color: #75DFE6;
+  display: flex;
+  box-shadow: 0px 1px 1px #939291;
+}
+
+.logo{
+  width: 100px;
+  background-color: #EE0056;
+  padding: 5px 10px;
+}
+
+.logo img{
+  height: 6em;
+  width: 80px;
+}
+
+ ul{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  list-style:none;
+  color:#FFFFFF;
+  text-shadow: 1px 1px #939291;
+
+}
+
+ li{
+  width: 100px;
+  height: 100%;
+  padding-top: 50px;
+}
+
+#home{
+  background-color: #00A6BC;
+}
+
+#cal{
+  background-color: #00B8D0;
+}
+
+#join{
+  background-color: #00D6E5;
+}
+
+header{
+  height: 7em;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, ##F8F8F8, #FFFFFF);
+}
+
+h1{
+  height: 50%;
+  padding-left: 18px;
+  font-size: 2.5em;
+  line-height:1.5em;
+  text-shadow: 0.4px 0.4px #939291;
+  font-weight: lighter;
+}
+
+section{
+  background-color: #091636;
+  box-shadow: 0px -1px 1px black;
+}
+
+h2{
+  padding: 24px 16px;
+  height: 3.5em;
+  color: white;
+  font-size: 1.75em;
+  line-height: 2em;
+  font-weight: lighter;
+  text-shadow: 0.4px 0.4px black;
+}
+
+.june{
+  height: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whitespace{
+  width: 14.25%;
+  height: 20%;
+  border: 2px solid #091636;
+  background: linear-gradient(to right, #EFEFEF, #FFFFFF);
+  display: flex;
+  align-items: flex-start;
+}
+
+.date{
+  padding: 10px;
+  background-color: #091636;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.pink{
+  background:linear-gradient(-45deg, #FA005A, #FFFFFF);
+  width: 14.25%;
+  height: 20%;
+  border: 2px solid #091636;
+  display: flex;
+  align-items: flex-start;
+}
+
+#rash:hover{
+  background:url('https://static1.squarespace.com/static/55aadde2e4b0a0d1a2ff1791/t/55ba79f3e4b0e30ad9f58e8a/1438284293570/') center/contain no-repeat;
+}
+
+#gtr:hover{
+  background:url('https://media.giphy.com/media/lKhWydOknrK92/giphy.gif') center/contain no-repeat;
+}
+
+footer{
+  height: 115px;
+  background-color: #75DFE6;
+  display: flex;
+}
+
+footer p{
+  align-items: center;
+  text-align: center;
+  color:#FFFFFF;
+  text-shadow: 1px 1px #939291;
+  padding: 50px 16px;
+}
+
+@media (max-width: 545px){
+  nav ul{
+    display:block;
+    width:81.65vw;
+  }
+
+  nav li{
+    width: 100%;
+    padding-top: 2%;
+    height: 33%;
+  }
+
+  header{
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  footer{
+    flex-direction:column;
+    height:186px;
+  }
+
+  footer ul{
+    display:block;
+    width:100vw;
+    height: 115px;
+  }
+
+  footer li{
+    width: 100%;
+    padding-top: 2%;
+    height: 33%;
+  }
+
+  footer p{
+    height: 70px;
+    padding-top: 6%;
+  }
+}
