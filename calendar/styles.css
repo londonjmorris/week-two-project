@@ -40,6 +40,11 @@ nav{
   padding-top: 50px;
 }
 
+nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 #home{
   background-color: #00A6BC;
 }
