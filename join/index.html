@@ -24,13 +24,54 @@
         <h1>Join Film Club</h1>
       </header>
       <div class="form_container">
+        <form class="" action="index.html" method="post">
+          <div class="picture">
+            <p>profile picture</p>
+            <button type="button" name="choosefile">Choose File</button>
+            <label for="button">No file chosen</label>
+            <img src="../images/profile-placeholder.png" alt="profile placeholder">
+          </div>
+          <div class="login">
+            <span class="name">
+              <label for="name">name</label><br>
+              <input type="text" name="name" value=""><br>
+              <label for="email">email address</label><br>
+              <input type="email" name="emailaddress" value="">
+            </span>
+            <span class="password">
+              <label for="name">password</label><br>
+              <input type="password" name="password" value=""><br>
+              <label for="email">confirm password</label><br>
+              <input type="password" name="confirmpassword" value="">
+            </span>
+          </div>
+          <div class="genres">
+            <p>Which genres are you interested in?</p>
+            <div><input type="checkbox" name="" value="">action</div>
+            <div><input type="checkbox" name="" value="">adventure</div>
+            <div><input type="checkbox" name="" value="">comedy</div>
+            <div><input type="checkbox" name="" value="">drama</div>
+            <div><input type="checkbox" name="" value="">fantasy</div>
+            <div><input type="checkbox" name="" value="">historical</div>
+            <div><input type="checkbox" name="" value="">horror</div>
+            <div><input type="checkbox" name="" value="">mystery</div>
+            <div><input type="checkbox" name="" value="">romance</div>
+            <div><input type="checkbox" name="" value="">science fiction</div>
+            <div><input type="checkbox" name="" value="">western</div>
+          </div>
+          <div class="join">
+            <p>Additional input</p>
+            <textarea name="additional input" rows="4" cols="110"></textarea>
+            <button type="button" name="join">Join Film Club</button>
+          </div>
+        </form>
       </div>
       <footer>
         <div class="nav-items">
           <ul>
-            <li id="home">Home</li>
-            <li id="cal">Calendar</li>
-            <li id="join">Join</li>
+            <li id="home"><a href="../index.html">Home</a></li>
+            <li id="cal"><a href="../calendar/index.html">Calendar</a></li>
+            <li id="join"><a href="index.html">Join</a></li>
           </ul>
         </div>
         </div class="trademark">

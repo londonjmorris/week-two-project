@@ -75,9 +75,81 @@ h1{
 }
 
 .form_container{
-  height: 50em;
+  height: 52em;
   padding: 1em;
+
 }
+
+form{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1025px;
+}
+
+.picture{
+  width: 33%;
+  height: 50%;
+}
+
+.picture img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 2em auto;
+}
+
+.picture button{
+  padding: 2px 8px;
+}
+
+.login{
+  width: 66%;
+  display: flex;
+}
+
+.login span{
+  width: 50%;
+}
+
+.login input{
+  width: 96%;
+  height: 30px;
+  margin-bottom: 1em;
+}
+
+.genres{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.genres p{
+  width: 100%;
+}
+
+.genres div{
+  width: 33%;
+  margin: 10px 0;
+}
+
+.genres input{
+  margin: 0 4px;
+}
+
+.join button{
+  width: 150px;
+  height: 55px;
+  color: #FFFFFF;
+  border-style: none;
+  background-color: #FA005A;
+  font-size: 1em;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
 
 footer{
   height: 115px;
@@ -108,4 +180,9 @@ footer p{
   color:#FFFFFF;
   text-shadow: 1px 1px #939291;
   padding: 50px 16px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
