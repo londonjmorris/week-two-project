@@ -144,6 +144,11 @@ footer p{
   padding: 50px 16px;
 }
 
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 @media (max-width: 545px){
   nav ul{
     display:block;
@@ -186,4 +191,6 @@ footer p{
     height: 70px;
     padding-top: 6%;
   }
+
+
 }
